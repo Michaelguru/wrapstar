@@ -46,7 +46,6 @@ marquee{
 }
 .head-container{
     width: 80%;
-    flex-wrap: ;
     text-align: center;
 }
 .headerLogoNav{
@@ -99,8 +98,13 @@ h1{
     text-align: center;
     color: white;
 }
-#homeOrder{
-    margin-left: 3%;
+.head-container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.head-container a{
+    margin-left: 5%;
     position: absolute;
     top: 65%;
     text-decoration: none;
@@ -316,15 +320,14 @@ h1{
     display: flex;
     text-align: center;
     align-items: center;
-    margin-left: 40%;
+    justify-content: center;
 }
 .footerLink img{
     height: 30px;
-    justify-content: space-between;
     padding-right: 10px;
 }
 #InvalidCoupleCombo{
-    color: rgb(255, 158, 158);
+    color: white;
     font-size: 20px;
 }
 
@@ -418,7 +421,7 @@ h1{
         font-size: 12px;
         padding-bottom: 10px;
     }
-    #homeOrder{
+    .head-container a{
         margin-left: 0;
         position: absolute;
         top: 75%;
@@ -583,9 +586,6 @@ h1{
     .footerOpenHours,.footerContact{
         flex-basis: 100%;
         font-size: 13px;
-    }
-    .footerLink{
-        margin-left: 25%;
     }
 
 }
