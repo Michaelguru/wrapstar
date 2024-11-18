@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Orders</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <div class="background">
+        
+    <div class="loader"> <img src="images/Wrapstar logo.png"> </div>
+    
+
+
+    <section class="header section">
+        <div class="firstContainer">
+            <header class="headerLogoNav">
+                <img src="images/Wrapstar logo.png" id="logo">
+                <a href="about.html" class="nav"> ABOUT</a>
+                <a href="index.html" class="nav"> HOME</a>
+                <a href="shawarma.html" class="nav"> SHAWARMA</a>
+                <a href="burger.html" class="nav"> BURGER</a>
+                <a href="fries.html" class="nav"> FRIES</a>
+
+                <a href="about.html"><img src="images/about.jpeg.png" class="icon" alt="about icon"></a>
+                 <a href="index.html"><img src="images/home.jpeg.png" class="icon" alt="about icon"></a>
+                <a href="shawarma.html"><img src="images/shawar 3.jpg.png" class="icon" alt="shawarma icon"></a>
+                <a href="burger.html"><img src="images/burg.jpeg.png" class="icon" alt=" burger icon"></a>
+                <a href="fries.html"><img src="images/chip.jpeg.png" class="icon" alt=" chip icon"></a>
+             </header>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Type to search...">
+            <button id="searchButton"> Search</button>
+        </div>
+
+        <div class="check" id="menuList">
+            <h2 class="menu-item section">Shawarma</h2>
+
+
+            <div class="shawarma-container section">
+        <div class="menu-item c1">
+            <label for="ChickenAlone">
+            <img src="images/s 2.png" alt="shawarma">
+            <div class="menu-item"><input type="checkbox" id="ChickenAlone" value="Chicken Alone" onclick="ChickenAlone()"> Chicken Alone Shawarma</div>
+            <p><span>N</span> 1,800</p>
+        </label>
+        </div>
+
+        <div class="menu-item c1">
+            <label for="BeefAlone">
+            <img src="images/s 4.png" alt="shawarma">
+            <div class="menu-item"><input type="checkbox" id="BeefAlone" value="Beef Alone"onclick="BeefAlone()"> Beef Alone Shawarma</div>
+            <p><span>N</span> 2,000</p>    
+        </label>
+        </div>
+
+        <div class="menu-item c1">
+            <label for="ChickenAndHotdog">
+            <img src="images/s 3.png" alt="shawarma">
+            <div class="menu-item"><input type="checkbox" id="ChickenAndHotdog" value="Chicken and Hotdog"onclick="ChickenAndHotdog()"> Chicken and Single Hotdog Shawarma</div>
+            <p><span>N</span> 2,000</p>
+        </label>
+        </div>
+        
+        <div class="menu-item c1">
+            <label for="ChickenAndBeef">
+            <img src="images/s 5.png" alt="shawarma">
+            <div class="menu-item"><input type="checkbox" id="ChickenAndBeef" value="Chicken and Beef"onclick="ChickenAndBeef()"> Chicken and Beef Shawarma</div>
+            <p><span>N</span> 2,500</p>
+        </label>
+        </div>
+
+        <div class="menu-item c1">
+            <label for="ChickenAndDoubleHotdog">
+            <img src="images/s 1.png" alt="shawarma">
+            <div class="menu-item"><input type="checkbox" id="ChickenAndDoubleHotdog" value="Chicken and Double Hotdog"onclick="ChickenAndDoubleHotdog()"> Chicken and Double Hotdog Shawarma</div>
+            <p><span>N</span> 2,300</p>
+        </label>
+        </div>
+        
+        <div class="menu-item c1">
+            <label for="ChickenBeef">
+            <img src="images/s 4.png" alt="shawarma">
+            <div class="menu-item"><input type="checkbox" id="ChickenBeef" value="Chicken Beef"onclick="ChickenBeef()"> Chicken Beef and Double Hotdog Shawarma</div>
+            <p><span>N</span> 3,000</p>
+        </label>
+        </div>
+        
+        <div class="menu-item c1">
+            <label for="ShawarmaSpecial">
+            <img src="images/s 2.png" alt="shawarma">
+            <div class="menu-item"><input type="checkbox" id="ShawarmaSpecial" value="Shawarma Special"onclick="ShawarmaSpecial()"> Shawarma Special</div>
+            <p><span>N</span> 4,500</p>
+        </label>
+        </div>
+        </div>
+
+
+            <h2 class="menu-item section">Burger</h2>
+    <div class="burger-container section">
+        
+        <div class="menu-item c1">
+            <label for="SingleChicken">
+            <img src="images/b 5.png" alt="">
+            <div class="menu-item"><input type="checkbox" id="SingleChicken" value="Single Chicken" onclick="SingleChicken()"> Single Chicken Burger</div>
+            <p><span>N</span> 4,000</p>
+        </label>
+        </div>
+
+        <div class="menu-item c1">
+            <label for="DoubleChicken">
+            <img src="images/b 1.png" alt="">
+            <div class="menu-item"><input type="checkbox" id="DoubleChicken" value="Double Chickcen"onclick=" DoubleChicken()"> Double Chicken Burger</div>
+            <p><span>N</span> 4,500</p>
+        </label>
+        </div>   
+        
+        <div class="menu-item c1">
+            <label for="SingleBeef">
+            <img src="images/b 3.png" alt="">
+            <div class="menu-item"><input type="checkbox" id="SingleBeef" value="Single Beef" onclick="SingleBeef()"> Single Beef Burger</div>
+            <p><span>N</span> 3,500</p>
+        </label>
+        </div>
+
+        <div class="menu-item c1">
+            <label for="DoubleBeef">
+            <img src="images/b 2.png" alt="">
+            <div class="menu-item"><input type="checkbox" id="DoubleBeef" value="Double Beef"onclick="DoubleBeef()"> Double Beef Burger</div>
+            <p><span>N</span> 4,000</p>
+        </label>
+        </div>
+        
+        <div class="menu-item c1">
+            <label for="BeefSuya">
+            <img src="images/b 4.png" alt="">
+            <div class="menu-item"><input type="checkbox" id="BeefSuya" value="Beef Suya"onclick="BeefSuya()"> Beef Suya Burger</div>
+            <p><span>N</span> 4,000</p>
+        </label>
+        </div>
+
+    </div>
+
+            <h2 class="menu-item section">Fries</h2>
+
+        <div class="fries-container section">
+            <div class="menu-item c1">
+                <label for="FriesAndChicken">
+                    <img src="images/f 1.png" alt="fries">
+                    <div class="menu-item"><input type="checkbox" id="FriesAndChicken" value="Fries and Chicken" onclick="FriesAndChicken()"> Fries and Chicken</div>
+                    <p><span>N</span> 4,500</p>
+                </label>
+                </div>    
+
+            <div class="menu-item c1">
+                <label for="BeefKebab">
+                    <img src="images/f 5.png" alt="">
+                    <div class="menu-item"><input type="checkbox" id="BeefKebab" value="Beek Kebab"onclick="BeefKebab()"> Beef Kebab</div>
+                    <p><span>N</span> 1,000</p>
+                </label>
+                </div>    
+
+            <div class="menu-item c1">
+                <label for="FriesCombo">
+                    <img src="images/b 6.png" alt="">
+                    <div class="menu-item"><input type="checkbox" id="FriesCombo" value="Fries Combo"onclick="FriesCombo()"> Fries Combo</div>
+                    <p><span>N</span> 5,500</p>
+                </label>
+                </div>     
+            
+            <div class="menu-item c1">
+                <label for="ExtraFries">
+                    <img src="images/f 4.png" alt="">
+                    <div class="menu-item"><input type="checkbox" id="ExtraFries" value="Extra Fries"onclick="ExtraFries()"> Extra Fries</div>
+                    <p><span>N</span> 1,000</p>
+                </label>
+                </div>     
+            
+            <div class="menu-item c1">
+                <label for="ExtraChicken">
+                    <img src="images/f 1.png" alt="fries">
+                    <div class="menu-item"><input type="checkbox" id="ExtraChicken" value="Extra Chicken"onclick="ExtraChicken()"> Extra Chicken</div>
+                    <p><span>N</span> 1,000</p>
+                </label>
+                </div>    
+            
+            <div class="menu-item c1">
+                <label for="ExtraSausage">
+                    <img src="images/f 2.png" alt="fries">
+                    <div class="menu-item"><input type="checkbox" id="ExtraSausage" value="Extra Sausage"onclick="ExtraSausage()"> Extra Sausage</div>
+                    <p><span>N</span> 500</p>
+                </label>
+                </div> 
+            
+            <div class="menu-item c1">
+                <label for="ExtraBeef">
+                    <img src="images/f 2.png" alt="fries">
+                    <div class="menu-item"><input type="checkbox" id="ExtraBeef" value="Extra Beef"onclick="ExtraBeef()"> Extra Beef</div>
+                    <p><span>N</span> 600</p>
+                </label>
+                </div>
+
+        </div>
+        </div>
+        <div id="noResults" ></div>
+
+
+        <p onclick="sendOrder()" class="order"> Send Orders(s) on Whatsapp</p>
+
+        <p id="delivery"> "You will be redirected to whatsapp to complete your order and make payment" <br> Swift delivery to anywhere in Malete</p>
+</div>
+
+    
+
+    <section class="footer section">
+        <div class="GetInTouch">
+            <p> GET IN TOUCH</p>
+            <h2> Visit Shop Today</h2>
+        </div>
+
+    <div class="footerDiv">
+        <div class="footerOpenHours">
+            <h3> Opening Hours</h3>
+            <p> Monday to Saturday - 12pm to 10pm</p>
+            <p> Sundays - 12pm to 10pm, 6pm to 9pm</p>
+        </div>
+
+        <div class="footerContact">
+            <h3> Contact Us</h3>
+            <p> Kwasu, Malete. Ilorin</p>
+            <p> Wrapstarhub@gmail.com</p>
+            <p> +234 9157684982</p>
+        </div>
+    </div>
+    <div class="footerLink">
+        <a href=" https://www.facebook.com/share/m6Qu9MqSeewjG9mN/?mibextid=LQQJ4d"><img src="images/facebook.png" alt="facebook" class="link"></a>
+        <a href="https://www.instagram.com/wrapstarshawarma?igsh=MTRkY3JuMGt5ZXkzag=="><img src="images/instagram.png" alt="instagram" class="link"></a>
+        <!-- <a href="https://wa.me/+2349157684983"><img src="images/whatsapp.png" alt="whatsapp" class="link"></a> -->
+        <a href="https://x.com/wrapstarhub?s=21"><img src="images/Twitter X.png" alt="Twitter" class="link"></a>
+        <a href="https://www.tiktok.com/@wrapstarshawarma?_t=8qXc7vsh4on&_r=1"><img src="images/TIKTOK.png" alt="Tiktok" class="link"></a>
+    </div>
+    
+    <p class="copy">&copy Wrapstarhub 2024, All Rights Reserved</p>
+    </section>
+
+
+    <script src="all.js"> </script>
+</body>
+</html>
