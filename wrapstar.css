@@ -330,8 +330,34 @@ h1{
     color: white;
     font-size: 20px;
 }
-
-
+.map{
+    max-width: 100%;
+    text-align: center;
+    background-color:rgb(253, 241, 223);
+    overflow: hidden;
+}
+.map div{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 40% ;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.map div:hover{
+    background-color: rgb(255, 115, 0);
+    color: rgb(253, 241, 223);
+}
+.map iframe{
+    width: 100%;
+}
+#map{
+    display: none;
+}
+#hideMap{
+    display: none;
+}
 
 
 
@@ -614,5 +640,14 @@ h1{
         color: black;
         font-size: 20px;
         transition: 0.3s ease-out;
+    }
+    .map div{
+        background-color: black;
+        color: white;
+        padding: 10px 15px;
+        margin: 0;
+        border: none;
+        cursor: pointer;
+        transition: .2s ease;
     }
 }
