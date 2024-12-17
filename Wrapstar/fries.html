@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fries</title>
+    <link rel="icon" href="images/Wrapstar logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/touch-icon.jpg">
+    <link rel="stylesheet" href="fries.css">
+</head>
+<body>
+    <div class="loader"> <img src="images/Wrapstar logo.png"> </div>
+    <section class="header section">
+            
+        <div class="firstContainer">
+            <header class="headerLogoNav">
+                <img src="images/Wrapstar logo.png" id="logo">
+                <a href="about.html" class="nav"> ABOUT</a>
+                <a href="index.html" class="nav"> HOME</a>
+                <a href="shawarma.html" class="nav"> SHAWARMA</a>
+                <a href="burger.html" class="nav"> BURGER</a>
+                <a href="fries.html" class="nav"> FRIES</a>
+                
+
+                <a href="about.html"><img src="images/about.jpeg.png" class="icon" alt="about icon"></a>
+                <a href="index.html"><img src="images/home.jpeg.png" class="icon" alt="about icon"></a>
+                <a href="shawarma.html"><img src="images/shawar 3.jpg.png" class="icon" alt="shawarma icon"></a>
+                <a href="burger.html"><img src="images/burg.jpeg.png" class="icon" alt=" burger icon"></a>
+                <a href="fries.html"><img src="images/chip.jpeg.png" class="icon" alt=" chip icon"></a>
+            </header>
+
+        <div class="slideshow-container"></div>
+        <div class="slide">
+          <img src="images/f 1.png" alt="Burger 1">
+          <!-- <div class="text">Tiktok</div> -->
+        </div>
+        <div class="slide">
+            <img src="images/f 2.png" alt="Burger 1">
+            <!-- <div class="text">INSTAGRAM</div> -->
+          </div>
+          <div class="slide">
+            <img src="images/f 3.png" alt="Burger 1">
+            <!-- <div class="text">Twitter</div> -->
+          </div>
+          <div class="slide">
+            <img src="images/f 4.png" alt="Burger 1">
+            <!-- <div class="text">whatsapp</div> -->
+          </div>
+        <div class="slide">
+          <img src="images/Wrapstar logo.png" alt="Burger 2">
+          <!-- <div class="text">Wrapstar</div> -->
+        </div>
+        <!-- Add more slides as needed -->
+        <button class="prev" onclick="changeSlide(-1)"> &#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+
+        <h2> MENU <span>Fries</span></h2>
+        <p>CRAVING FRIES? We've Got You Covered!</p>
+    
+        <div class="choose">
+            <p>Choose/Select From Our Fries Menu:</p>
+        </div>
+        <div class="line">
+            <span></span>
+        </div>
+    </section>
+
+    <section class="menu section">
+        <div class="first-list">
+            <div class=" list">
+
+                <div class="check">
+                    <label><input type="checkbox" id="FriesAndChicken" value="Fries and Chicken" onclick="FriesAndChicken()"> Fries and Chicken</label><br>
+                    <label><input type="checkbox" id="BeefKebab" value="Beek Kebab"onclick="BeefKebab()"> Beef Kebab</label><br>
+                    <label><input type="checkbox" id="FriesCombo" value="Fries Combo"onclick="FriesCombo()"> Fries Combo</label><br>
+                    <label><input type="checkbox" id="ExtraFries" value="Extra Fries"onclick="ExtraFries()"> Extra Fries</label><br>
+                    <label><input type="checkbox" id="ExtraChicken" value="Extra Chicken"onclick="ExtraChicken()"> Extra Chicken</label><br>
+                    <label><input type="checkbox" id="ExtraSausage" value="Extra Sausage"onclick="ExtraSausage()"> Extra Sausage</label><br>
+                    <label><input type="checkbox" id="ExtraBeef" value="Extra Beef"onclick="ExtraBeef()"> Extra Beef</label><br>
+                    </div>
+
+                
+            </div>
+            <div class="price">
+                <ul>
+                    <li><a> <span>N</span>4,500</a></li>
+                    <li><a> <span>N</span>1,000</a></li>
+                    <li><a> <span>N</span>5,500</a></li>
+                    <li><a> <span>N</span>1,000</a></li>
+                    <li><a> <span>N</span>1,000</a></li>
+                    <li><a> <span>N</span>500</a></li>
+                    <li><a> <span>N</span>600</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="line" id="order">
+            <span></span>
+        </div>
+        <div class="sendMessage">
+            <p id="response"> Make Your Orders Here!</p>
+            <!-- <a href="mailto:Wrapstarhub@gmail.com?Subject=Ordering Fries" class="link">Make Order via Email</a> -->
+            <a onclick="sendWhatsAppMessage()" class="link2"> Send Order(s) on Whatsapp</a>
+            <!-- <a href="https://www.instagram.com/wrapstarshawarma?igsh=MTRkY3JuMGt5ZXkzag==" class="link3">Make Order Via Instagram</a> -->
+        </div>
+        <p id="delivery"> "You will be redirected to whatsapp to complete your order and make payment"</p>
+        <p id="delivery">Deliveries are made only in Malete</p>
+    </section>
+
+    <div class="line2">
+        <span></span>
+    </div>
+
+    <section class="footer section">
+        <div class="GetInTouch">
+            <p> GET IN TOUCH</p>
+            <h2> Visit Shop Today</h2>
+        </div>
+
+    <div class="footerDiv">
+        <div class="footerOpenHours">
+            <h3> Opening Hours</h3>
+            <p> Monday to Saturday - 12pm to 10pm</p>
+            <p> Sundays - 12pm to 10pm, 6pm to 9pm</p>
+        </div>
+
+        <div class="footerContact">
+            <h3> Contact Us</h3>
+            <p> Kwasu, Malete. Ilorin</p>
+            <p> Wrapstarhub@gmail.com</p>
+            <p> +234 9157684982</p>
+        </div>
+    </div>
+    <div class="footerLink">
+        <a href=" https://www.facebook.com/share/m6Qu9MqSeewjG9mN/?mibextid=LQQJ4d"><img src="images/facebook.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/wrapstarshawarma?igsh=MTRkY3JuMGt5ZXkzag=="><img src="images/instagram.png" alt="instagram"></a>
+        <!-- <a href="https://wa.me/+2349157684983"><img src="images/whatsapp.png" alt="whatsapp"></a> -->
+        <a href="https://x.com/wrapstarhub?s=21"><img src="images/Twitter X2.png" alt="Twitter"></a>
+        <a href="https://www.tiktok.com/@wrapstarshawarma?_t=8qXc7vsh4on&_r=1"><img src="images/TIKTOK.png" alt="Tiktok"></a>
+    </div>
+    
+    <p class="copy">&copy Wrapstarhub 2024 - 2025, All Rights Reserved</p>
+    <p class="copy">Developer: ScottViewDev</p>
+    </section>
+
+    <script src="fries.js"></script>
+</body>
+</html>
