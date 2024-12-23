@@ -3,6 +3,9 @@
     margin: 0 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .loader{
     height: 100px;
     width: 100px;

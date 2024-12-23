@@ -330,9 +330,9 @@ h1{
     color: white;
     font-size: 20px;
 }
-.map{
-    max-width: 100%;
-    text-align: center;
+/* .map{
+    max-width: 100%; */
+    /* text-align: center;
     background-color:rgb(253, 241, 223);
     overflow: hidden;
 }
@@ -357,7 +357,7 @@ h1{
 }
 #hideMap{
     display: none;
-}
+} */
 
 
 
@@ -641,7 +641,7 @@ h1{
         font-size: 20px;
         transition: 0.3s ease-out;
     }
-    .map div{
+    /* .map div{
         background-color: black;
         color: white;
         padding: 10px 15px;
@@ -649,5 +649,5 @@ h1{
         border: none;
         cursor: pointer;
         transition: .2s ease;
-    }
+    } */
 }

@@ -55,14 +55,14 @@ document.getElementById('orderNow').addEventListener("click", function(event){
     event.preventDefault();
 })
 
-function showMap(){
-    document.getElementById("map").style.display = 'unset';
-    document.getElementById("showMap").style.display = 'none';
-    document.getElementById("hideMap").style.display = 'unset';
-};
+// function showMap(){
+//     document.getElementById("map").style.display = 'unset';
+//     document.getElementById("showMap").style.display = 'none';
+//     document.getElementById("hideMap").style.display = 'unset';
+// };
 
-function hideMap(){
-    document.getElementById("map").style.display = 'none';
-    document.getElementById("showMap").style.display = 'unset';
-    document.getElementById("hideMap").style.display = 'none';
-};
+// function hideMap(){
+//     document.getElementById("map").style.display = 'none';
+//     document.getElementById("showMap").style.display = 'unset';
+//     document.getElementById("hideMap").style.display = 'none';
+// };
