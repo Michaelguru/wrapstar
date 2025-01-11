@@ -7,7 +7,7 @@
     background: linear-gradient(rgba(218, 116, 0, 0.733), #723d01);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 110vh;
 }
 .order-list{
     text-align: center;
@@ -117,7 +117,7 @@
 
 @media screen and (max-width: 770px) {
     .header{
-        height: 100vh;
+        height: 110vh;
     }
     .order-list a{
         margin-bottom: 50px;
