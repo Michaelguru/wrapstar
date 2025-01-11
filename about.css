@@ -97,13 +97,24 @@ html{
     margin-left: 20px;
 }
 .info p{
-    font-size: 16px;
+    font-size: 17px;
     margin: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .info h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 20px;
+}
+.ceo-img{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+.ceo-img img{
+    border-radius: 5px;
+    height: 500px ;
+    border: 5px solid rgb(0, 0, 0);
 }
 .window-screenshot{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356) ;
@@ -355,5 +366,17 @@ html{
     .footerOpenHours,.footerContact{
         flex-basis: 100%;
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .ceo-img{
+        text-align: center;
+        margin: 20px 0;
+        
+    }
+    .ceo-img img{
+        height: 450px ;
+        border: 5px solid rgb(0, 0, 0);
     }
 }
