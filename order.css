@@ -26,6 +26,12 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 20px;
 }
+#logo{
+    border: none;
+}
+#logo:hover{
+    background-color: transparent;
+}
 .order-list a{
     display: block;
     text-decoration: none;
