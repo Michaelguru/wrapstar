@@ -25,7 +25,9 @@ if(hasResults) {
     noResults.style.display = "block";
     noResults.textContent = ` No results found for your search! This might be due to incorrect spelling or "${query}" isn't currently on the list`
 }
+event.preventDefault();
 });
+
 
 
 document.addEventListener("DOMContentLoaded", function(){
