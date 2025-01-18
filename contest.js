@@ -23,7 +23,7 @@ document.getElementById('wrapstarForm').addEventListener('submit', function (eve
         return;
     }
 
-    const whatsappNumber = '09157684983';
+    const whatsappNumber = "2349157684983";
     const whatsappMessage = `Here are the words I found: ${menuWords}`;
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappURL, '_blank');
