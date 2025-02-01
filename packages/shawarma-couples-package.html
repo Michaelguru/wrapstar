@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Couples Package</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" >
+</head>
+<body>
+    
+    <header class="headerLogoNav">
+        <a href="../index.html">
+        <img src="../images/Wrapstar logo.png" id="logo">
+        </a>
+        <a href="../about.html" class="nav"> ABOUT</a>
+        <a href="../index.html" class="nav"> HOME</a>
+        <a href="../shawarma.html" class="nav"> SHAWARMA</a>
+        <a href="../burger.html" class="nav"> BURGER</a>
+        <a href="../fries.html" class="nav"> FRIES</a>
+
+
+        <a href="../about.html"><img src="../images/about.jpeg.png" class="icon" alt="about icon"></a>
+        <a href="../index.html"><img src="../images/home.jpeg.png" class="icon" alt="about icon"></a>
+        <a href="../shawarma.html"><img src="../images/shawar 3.jpg.png" class="icon" alt="shawarma icon"></a>
+        <a href="../burger.html"><img src="../images/burg.jpeg.png" class="icon" alt=" burger icon"></a>
+        <a href="../fries.html"><img src="../images/chip.jpeg.png" class="icon" alt=" chip icon"></a>
+        
+    </header>
+
+
+    <section class="checkout">
+        <div class="checkout-img section">
+            <img src="../images/double shawarma1.jpeg" alt="checkout-img">
+        </div>
+
+        <div class="checkout-text section">
+            <h1 id="itemName">SHAWARMA COUPLES <br> PACKAGE</h1>
+            <h2><span>N</span> <span id="itemPrice">12500</span></h2>
+
+            <ul>
+                <li><i class="fa-solid fa-check"></i>2 Double sausage shawarma</li>
+                <li><i class="fa-solid fa-check"></i>Extra Fries</li>
+                <li><i class="fa-solid fa-check"></i>2 Peppered chicken</li>
+                <li><i class="fa-solid fa-check"></i>2 Peppered Hotdog</li>
+                <li><i class="fa-solid fa-check"></i> 2 Ice Creams</li>
+            </ul>
+            <div class="quantity">
+                <p>Selected quantity:</p>
+                <input type="number" id="quantity" value="1" onchange="updateTotal()" min="1" placeholder="1">
+                <h3>Total: <span id="naira">N</span> <span id="totalPrice">12500</span></h3>
+            </div>
+
+            <div class="pay">
+                <div class="buy-button">
+                    <button class="payment" id="buyNow" onclick="sendWhatsAppMessage()">Buy Now</button><br>
+                </div>
+                <div class="paynow-info">
+                    <button class="payment" id="payNowBtn" style="display: none;">Buy For Me</button><br>
+                    <div id="input-field" style="display: none;">
+                        <label for="nameInput">Enter your name or nickname</label><br>
+                        <input type="text" id="nameInput" class="input-field" placeholder="Enter your name or Nickname"><br>
+                        <label for="phoneInput"> Enter your phone number</label><br>
+                        <input type="tel" id="phoneInput" class="input-field" placeholder="Enter your phone number" value="+234"><br>
+                        <details>
+                            <summary>why do we request name and phone number?</summary>
+                            <p>We ask for your name and phone number so your friend, partner or family member can see who their paying for. When they click the "Pay 4 [Your Name]" button, we will send this information to our whatsApp support team to process the payment smoothly.</p>
+                            <p>Rest assured, your details are only used for the transaction and won't be shared elsewhere. Visit our <a href="../about.html#P&P">Privacy & Policies</a> to know more</p>
+                        </details>
+                    </div>
+                        <p id="request-text">Request payment<br>From Your Friend or partner</p>
+                        <button class="payment" id="payForMeBtn" onclick="shareWebsite()">Pay 4 Me! 👩🏾‍❤️‍💋‍👨🏽❤️</button><br>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="line2">
+        <span></span>
+    </div>
+
+    <section class="suggestions section">
+        <h2>CHECK-OUT THIS YUMMY PACKAGE!</h2>
+
+        
+        <a href="burger-couples-package.html">
+            <div class="items-card">
+                    <div class="item-img">
+                        <img src="../images/double burger.jpg" alt="item-img">
+                    </div>
+                    <h3>Burger Couples <br> Package</h3>
+                    <p>Special offer</p>
+            </div>
+        </a>
+    </section>
+
+
+    <section class="footer section">
+        <div class="GetInTouch">
+            <p> GET IN TOUCH</p>
+            <h2> Visit Shop Today</h2>
+        </div>
+
+        <div class="footerDiv">
+            <div class="footerOpenHours">
+                <h3> Opening Hours</h3>
+                <p> Monday to Saturday - 12pm to 10pm</p>
+                <p> Sundays - 12pm to 10pm, 6pm to 9pm</p>
+            </div>
+
+            <div class="footerContact">
+                <h3> Contact Us</h3>
+                <p> Kwasu, Malete. Ilorin</p>
+                <p> Wrapstarhub@gmail.com</p>
+                <p> +234 9157684982</p>
+            </div>
+        </div>
+        <div class="footerLink">
+            <a href=" https://www.facebook.com/share/m6Qu9MqSeewjG9mN/?mibextid=LQQJ4d"><img src="../images/facebook.png" alt="facebook" class="link"></a>
+            <a href="https://www.instagram.com/wrapstarshawarma?igsh=MTRkY3JuMGt5ZXkzag=="><img src="../images/instagram.png" alt="instagram" class="link"></a>
+            <!-- <a href="https://wa.me/+2349157684983"><img src="../images/whatsapp.png" alt="whatsapp" class="link"></a> -->
+            <a href="https://x.com/wrapstarhub?s=21"><img src="../images/Twitter X.png" alt="Twitter" class="link"></a>
+            <a href="https://www.tiktok.com/@wrapstarshawarma?_t=8qXc7vsh4on&_r=1"><img src="../images/TIKTOK.png" alt="Tiktok" class="link"></a>
+        </div>
+    
+            <p class="copy">&copy Wrapstarhub 2024 - 2025, All Rights Reserved</p>
+            <p class="copy">Developer: ScottViewDev</p>
+    </section>
+
+
+</body>
+<script src="checkout.js"></script>
+</html>
