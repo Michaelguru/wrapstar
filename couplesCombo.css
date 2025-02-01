@@ -69,7 +69,7 @@ body{
 }
 
 .hero{
-    background: url(images/val-photo.jpg);
+    background: url(val-photo.jpg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
