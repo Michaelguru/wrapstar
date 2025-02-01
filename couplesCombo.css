@@ -246,7 +246,7 @@ body{
         display: none;
     }
     .hero{
-        background: url(images/val-photo.jpg);
+        background: url(val-photo.jpg);
         background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
@@ -321,7 +321,7 @@ body{
 
 @media screen and (max-width: 470px) {
     .hero{
-        background: url(images/val-photo.jpg);
+        background: url(val-photo.jpg);
         background-position: left;
         background-repeat: no-repeat;
         background-size: cover;
