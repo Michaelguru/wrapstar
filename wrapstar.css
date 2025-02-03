@@ -25,8 +25,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #ffd79cce;
-    backdrop-filter: blur(10px);
+    background-color: #ffd79ce0;
+    backdrop-filter: blur(20px);
     text-align: center;
     padding: 25px 17px;
     font-size: 17px;
@@ -973,5 +973,9 @@ marquee a{
         border-radius: 10px;
         margin-top: 20px;
         justify-content: center;
+    }
+    .alert p{
+        font-size: 15px;
+        padding: 10px;
     }
 }
